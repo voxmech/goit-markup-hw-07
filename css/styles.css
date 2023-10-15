@@ -1193,7 +1193,7 @@ body {
 
 @media only screen and (min-width: 428px) and (max-width: 767px) {
   .container {
-    width: 775px;
+    width: 428px;
     margin: 0 auto;
   }
 }
@@ -1205,4 +1205,34 @@ body {
   }
 
  }
+
+ .header-navigator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+ }
+
+ .hero-motto {
+  display: block;
+  max-width: 320px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin: 0 auto 72px;
+ }
+
+ .icon-items, .icon-svg-features  {
+  display: none;
+ }
+
+ .icon-svg-features {
+  width: 100%;
+  
+ }
+
+ 
+ 
 
