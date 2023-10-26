@@ -1228,13 +1228,22 @@ body {
   
    .icon-svg-features {
     width: 100%;
-    
-   }
+
+  
+}
 
 
 
   
 
+ }
+
+ @media only screen and (min-width: 428px) and (max-width: 767px), only screen and (max-width: 427px) {
+  .features-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
  }
 
 
