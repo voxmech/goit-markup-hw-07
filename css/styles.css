@@ -1274,10 +1274,10 @@ body {
 
  /*section no-top-padding hidden */
 
- .no-top-padding {
+.no-top-padding {
   display: none;
  } 
- .section-title {
+  .section-title {
     display: none;
   }
 
@@ -1381,12 +1381,32 @@ padding-top: 97.5px;
 
 
 /*media inquiry TABLET VIEW */
+/*resets for tablet view */
 
-@media only screen and (min-width: 428px) and (max-width: 767px) {
-  
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+
+  .container {
+    width: 768px;
+    margin: 0 auto;
+    padding: 0px;
+    margin: 0px;
+   
+  }
+
+  .section {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+/*header tablet view */
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+.logo-link {
+  padding-left: 16px;
 }
 
+}
 
+/*end of header tablet view */
 
  
  
