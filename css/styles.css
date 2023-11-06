@@ -1237,11 +1237,6 @@ body {
 
   
 }
-
-
-
-  
-
  }
 
  @media only screen and (min-width: 428px) and (max-width: 767px), only screen and (max-width: 427px) {
@@ -1274,12 +1269,15 @@ body {
   }
 
   .features-items :nth-child(4) {
-    padding-bottom: 96px;
+    padding-bottom: 0px;
   }
 
  /*section no-top-padding hidden */
 
-  .section-title {
+ .no-top-padding {
+  display: none;
+ } 
+ .section-title {
     display: none;
   }
 
@@ -1313,8 +1311,80 @@ body {
 
 
 
+/*footer mobile view*/
+
+@media only screen and (min-width: 428px) and (max-width: 767px) {
+.footer-item {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+row-gap: 72px;
+padding-top: 97.5px;
+}
+
+.footer-logo {
+  margin: 0px;
+  padding-left: 70px;
+  
+}
+
+.footer-item .logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-icon-wrapper {
+  padding-left: 90px;
+}
+
+.social-media {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-subscription-form  {
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+ 
+}
+
+.footer-subscription-label {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-subscription-text {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-subscription-input {
+  width: 396px;
+}
+
+.footer-subscription-button {
+  align-self: center;
+  
+}
+}
+
+  
+
+/*end of footer mobile view*/
 
 
+/*media inquiry TABLET VIEW */
+
+@media only screen and (min-width: 428px) and (max-width: 767px) {
+  
+}
 
 
 
