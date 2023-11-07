@@ -1406,9 +1406,14 @@ padding-top: 97.5px;
 
 .header-ctas {
   display: flex;
-  flex-direction: column-reverse;
-}
+  flex-direction: column
 
+
+ 
+  
+
+}
+/*end of header tablet view*/
 
 .icon-items, .icon-svg-features  {
   display: none;
@@ -1461,13 +1466,67 @@ padding-top: 97.5px;
  .no-top-padding {
   display: none;
  } 
-  
+   
 
   .wawd-items {
     display: none;
   }
  
  /*end of section no-top-padding hidden */ 
+
+/*our team tablet view*/
+ .bg-team {
+  padding: 96px 0px;
+ }
+
+ .our-team-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  column-gap: 24px;
+  row-gap: 64px;
+ }
+
+/*end of our team tablet view*/
+ 
+/*customers*/
+
+.customers-section {
+  padding: 96px 0px;
+}
+
+.customers {
+  padding-top: 0px;
+  padding-bottom: 72px;
+}
+
+
+/*end of customers*/
+
+/*footer tablet view*/
+
+.footer {
+  padding: 97.5px 0px;
+}
+
+.footer-logo {
+  margin-left: 50px;
+  margin-right: 24px;
+}
+
+.footer-subscription-form {
+  margin-top: 72px;
+  margin-left: 50px
+  
+}
+
+.footer-subscription-button {
+  margin: 0px;
+}
+
+/*end of footer tablet view*/
 
 }
 
