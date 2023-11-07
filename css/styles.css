@@ -1409,6 +1409,7 @@ padding-top: 97.5px;
   flex-direction: column-reverse;
 }
 
+
 .icon-items, .icon-svg-features  {
   display: none;
  }
@@ -1420,6 +1421,7 @@ padding-top: 97.5px;
 }
 
 .features-items {
+  margin: 96px 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1428,6 +1430,7 @@ padding-top: 97.5px;
   column-gap: 24px;
   row-gap: 72px;
 }
+
 
 
 .features-items .title {
@@ -1453,7 +1456,16 @@ padding-top: 97.5px;
   letter-spacing: 0.32px;
 
 
-}
+ .no-top-padding {
+  display: none;
+ } 
+  
+
+  .wawd-items {
+    display: none;
+  }
+ 
+ /*end of section no-top-padding hidden */ 
 
 }
 
